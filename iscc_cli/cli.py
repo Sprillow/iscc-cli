@@ -24,6 +24,7 @@ from click_default_group import DefaultGroup
 from loguru import logger as log
 
 
+
 @dataclass
 class GlobalOptions:
     debug: bool
